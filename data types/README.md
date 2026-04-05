@@ -46,25 +46,19 @@ Solidity uses reference types in a unique manner – each reference variable poi
 Arrays are one of the most important Solidity data types. Arrays are a collection of variables – each variable containing a unique index. This unique index can help in finding and retrieving a specific variable. The size of the array defines whether it’s fixed or dynamic.
 An array stores different types of data and enables simplifying varied processes. The unique index location could help in retrieving a specifically requested variable. 
 
-2. Array Members
-   
-Array members are usually defined in terms of length (which, in turn, determines the number of elements in one array). You can set the length using array members to facilitate size adjustments in a dynamically sized array. 
-The two main tasks by Array Members are “Push” and “Pop.” The push task usually uses a member of a dynamic array and adds an element to the last position, while the pop task removes an element from the last position on the dynamic array.
-
-3. Byte Arrays
+2. Byte Arrays
    
 Byte arrays are specific types of dynamically sized arrays that hold a collection of bytes together. Do not confuse byte arrays with byte value types  – the byte value type stores signed integers in a binary format, while byte arrays hold these bytes to serve different use cases. 
 
-4. String Arrays
+3. String Arrays
    
 Dynamic arrays with unique restrictions are called String arrays within Solidity. The string array generally features characters enclosed within single/double quotes. 
 
-5. Structs
+4. Structs
    
 Struct allows you to create your own data type by combining different variables of value type and reference type in a pre-defined structure.
 
-6. Mapping
+5. Mapping
     
 Just like hashable in other programming languages, Mapping is the most commonly used data type in the Solidity programming language. It stores the data in the form of key-value pairs, enabling you to retrieve the value using the supplied key. 
 The Byte data type points to 8-bit signed integers. The Byte value type facilitates data storage in binary values (1s and 0s). The default value of a byte type is 0x00. 
-
