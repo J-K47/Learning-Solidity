@@ -50,9 +50,9 @@ An array stores different types of data and enables simplifying varied processes
    
 Byte arrays are specific types of dynamically sized arrays that hold a collection of bytes together. Do not confuse byte arrays with byte value types  – the byte value type stores signed integers in a binary format, while byte arrays hold these bytes to serve different use cases. 
 
-3. String Arrays
+3. String
    
-Dynamic arrays with unique restrictions are called String arrays within Solidity. The string array generally features characters enclosed within single/double quotes. 
+A string is used to store text, like names, sentences, or any human-readable characters. A string is basically a dynamic array, but specifically designed for UTF-8 text. Because its size is flexible, it can grow as long as you need it to.
 
 4. Structs
    
