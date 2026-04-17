@@ -26,3 +26,4 @@ contract PureFunction {
         // Completely isolated math. No reading or writing to the blockchain.
         return (principal * rate) / 100;
     }
+}
